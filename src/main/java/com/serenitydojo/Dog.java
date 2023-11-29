@@ -2,12 +2,12 @@ package com.serenitydojo;
 
 public class Dog {
     private final String name;
-    private final String favToy;
+    private final String favoriteToy;
     private final int age;
 
-    public Dog(String name, String favToy, int age) {
+    public Dog(String name, String favoriteToy, int age) {
         this.name = name;
-        this.favToy = favToy;
+        this.favoriteToy = favoriteToy;
         this.age = age;
     }
 
@@ -16,7 +16,7 @@ public class Dog {
     }
 
     public String getFavoriteToy() {
-        return favToy;
+        return favoriteToy;
     }
 
     public int getAge() {
